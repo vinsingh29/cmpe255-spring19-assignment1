@@ -4,8 +4,9 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-The data set given is in Json format. Data set is comprised of review.json file containing 600000 reviews, the object of the assignment is to classify the reviews as positive
-negative and neutral. Along with that predict the required data. For this project, I have used 4 classifiers.
+The data set given is in Json format. Data set is comprised of review.json file containing 600000 reviews, the objective of the assignment is to classify the reviews as positive negative and neutral. Along with that predict the required data. 
+
+For this project, I have used 4 classifiers.
 1. Naive Byes
 2. Random Forest
 3. Knn
@@ -27,11 +28,11 @@ Step2 . Created list of Positive,Negative and Neutral keywords after through ana
 
 Step3 . Created an algorithm to classify each review in the data set
 		For each review in the data set, tokenized the words, next for each word algorithm matches it with the list of keywords. To keep track of the words, used 3 counters.
-		pos = 0
+	pos = 0
     	neg = 0
     	neu = 0
 
-    	If the encountered word is positive, pos++, if negative, neg++ and if neutral neu++. Once all the counters are updated for a review the counters are compared, out 3 whichever counter is highest accordingly the sentiment are assigned to a given review. This algrithm actually finds the score for each review and assignment sentiment as per the score of the counter
+If the encountered word is positive, pos++, if negative, neg++ and if neutral neu++. Once all the counters are updated for a review the counters are compared, out 3 whichever counter is highest accordingly the sentiment are assigned to a given review. This algrithm actually finds the score for each review and assignment sentiment as per the score of the counter
 
 Step4 . Append predicted sentiment of the review in the dataframe that will be later used by classifier
 
@@ -55,8 +56,9 @@ Given the limit of processing speed I could run my algorithm for maximum 300000 
 
 ```
 I have used 4 classifiers:
+
 1. Naive Bayes
-   It worked well in all the 3 scenario(when reviews: 1000,50000,300000). It classified postive (88%) and neutral (40%) classes very well. But din't work well for negtive classes.
+It worked well in all the 3 scenario(when reviews: 1000,50000,300000). It classified postive (88%) and neutral (40%) classes very well. But din't work well for negtive classes.
 
                  precision    recall  f1-score   support
 
@@ -65,22 +67,22 @@ I have used 4 classifiers:
     Positive       0.88      0.88      0.88     12246
 
 2. Random Forest
-   This algorithm worked very well in all scenarios (when reviews: 1000,50000,300000). 
+This algorithm worked very well in all scenarios (when reviews: 1000,50000,300000). 
 
-   				precision    recall  f1-score   support
+   		precision    recall  f1-score   support
 
     Negative       0.83      0.05      0.10       380
      Neutral       0.58      0.14      0.23      2374
     Positive       0.83      0.98      0.90     12246
 
 3. Knn 
-   This algorithm performed well when considering more than 50000 but less than 300000 reviews. 
+This algorithm performed well when considering more than 50000 but less than 300000 reviews. 
 
 4. SVM
-   This algorithm performed worst out of all above.
+This algorithm performed worst out of all above.
 
 Conclusion:
-   Random forest did well in all scenarios compared to all above algorithms.
+Random forest did well in all scenarios compared to all above algorithms.
 
 ```
 
