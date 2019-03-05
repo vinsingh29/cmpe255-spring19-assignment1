@@ -70,7 +70,7 @@ I have used 4 classifiers:
 2. Random Forest
    This algorithm worked very well in all scenarios (when reviews: 1000,50000,300000). 
 
-   				precision   recall  f1-score   support
+   			precision   recall  f1-score   support
 
     Negative      0.83      0.05      0.10       380
     Neutral       0.58      0.14      0.23      2374
