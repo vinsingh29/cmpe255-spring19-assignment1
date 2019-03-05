@@ -1,6 +1,15 @@
 # Assignment 1 - Analysing Yelp Data set
 
-One Paragraph of project description goes here
+The submission consists of 3 Jupyter files:
+
+1. Assignment1_Completed_10000.ipynb - Findings when data set contains 10000 reviews.
+
+2. Assignment1_Completed_50000.ipynb - Findings when data set contains 50000 reviews.
+
+3. Assignment1_Completed_300000.ipynb - Findings when data set contains 300000 reviews.
+
+4. README
+
 
 ## Getting Started
 
