@@ -31,12 +31,12 @@ Data being huge, it became very difficult at first to set the environment. To co
 
 ```
 Step1 . Data Preprocessing and environment setup
-		The data is first uploaded in google drive for access in google colab. Next, converted each review text in lowercase also removed all puntutation.
+The data is first uploaded in google drive for access in google colab. Next, converted each review text in lowercase also removed all puntutation.
 
 Step2 . Created list of Positive,Negative and Neutral keywords after through analysis of data. 
 
 Step3 . Created an algorithm to classify each review in the data set
-		For each review in the data set, tokenized the words, next for each word algorithm matches it with the list of keywords. To keep track of the words, used 3 counters.
+For each review in the data set, tokenized the words, next for each word algorithm matches it with the list of keywords. To keep track of the words, used 3 counters.
 	pos = 0
     	neg = 0
     	neu = 0
