@@ -41,7 +41,10 @@ For each review in the data set, tokenized the words, next for each word algorit
     	neg = 0
     	neu = 0
 
-If the encountered word is positive, pos++, if negative, neg++ and if neutral neu++. Once all the counters are updated for a review the counters are compared, out 3 whichever counter is highest accordingly the sentiment are assigned to a given review. This algrithm actually finds the score for each review and assignment sentiment as per the score of the counter
+If the encountered word is positive, pos++, if negative, neg++ and if neutral neu++. 
+Once all the counters are updated for a review the counters are compared, out 3 whichever counter is highest accordingly the sentiment are assigned to a given review. 
+
+This algorithm actually finds the score for each review and assignment sentiment as per the score of the counter
 
 Step4 . Append predicted sentiment of the review in the dataframe that will be later used by classifier
 
