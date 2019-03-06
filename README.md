@@ -57,7 +57,13 @@ Step7 . Predict the reviews from the classifier and check with star rating if it
 ## Running the tests
 
 I followed approach of divide and conquer, first I picked up 1000, 3000, 50000, and finally 300000 to check what amount of data maximum can be supported by google colab.
-Given the limit of processing speed I could run my algorithm for maximum 300000 reviews. When considering 600000 reviews even google colab couldnt support me with processing power. Thus I am submitting my analysis that I got for maximum 300000 reviews. I am also submitting notebook that I used to reach to the result. These books are run on 1000,50000 and 300000 reviews.
+
+Given the limit of processing speed I could run my algorithm for maximum 300000 reviews. 
+
+When considering 600000 reviews even google colab couldnt support me with processing power. 
+Thus I am submitting my analysis that I got for maximum 300000 reviews. 
+
+I am also submitting notebook that I used to reach to the result. These books are run on 1000,50000 and 300000 reviews.
 
 ### Results and Conclusion
 
@@ -67,7 +73,9 @@ Given the limit of processing speed I could run my algorithm for maximum 300000 
 I have used 4 classifiers:
 
 1. Naive Bayes
-It worked well in all the 3 scenario(when reviews: 1000,50000,300000). It classified postive (88%) and neutral (40%) classes very well. But din't work well for negtive classes.
+It worked well in all the 3 scenario(when reviews: 1000,50000,300000). 
+It classified postive (88%) and neutral (40%) classes very well. 
+Classifier doesn't work that well for negative classes.
 
                  precision    recall  f1-score   support
 
