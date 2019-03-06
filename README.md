@@ -10,6 +10,7 @@ The submission consists of 3 Jupyter files:
 
 4. README
 
+All the latest learning and analysis is well documented in Assignment1_Completed_300000.ipynb book for further reference.
 
 ## Getting Started
 
