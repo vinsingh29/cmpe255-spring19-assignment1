@@ -8,9 +8,11 @@ The submission consists of 3 Jupyter files:
 
 3. Assignment1_Completed_300000.ipynb - Findings when data set contains 300000 reviews.
 
-4. README
+4. Assignment1_Final_Notebook.ipynb - Finding when considering reviews only for businesses that are restaurant.
 
-All the latest learning and analysis is well documented in Assignment1_Completed_300000.ipynb book for further reference.
+5. README
+
+All the latest learning and analysis is well documented in Assignment1_Final_Notebook.ipynb book for further reference.
 
 ## Getting Started
 
@@ -60,14 +62,11 @@ Step7 . Predict the reviews from the classifier and check with star rating if it
 
 ## Running the tests
 
-I followed approach of divide and conquer, first I picked up 1000, 3000, 50000, and finally 300000 to check what amount of data maximum can be supported by google colab.
+I followed approach of divide and conquer, first I picked up 1000, 3000, 50000, and finally complete dataset to check what amount of data maximum can be supported by google colab.
 
-Given the limit of processing speed I could run my algorithm for maximum 300000 reviews. 
+Given the limit of processing speed I could run my algorithm for maximum 32 lakh reviews. 
 
-When considering 600000 reviews even google colab couldnt support me with processing power. 
-Thus I am submitting my analysis that I got for maximum 300000 reviews. 
-
-I am also submitting notebook that I used to reach to the result. These books are run on 1000,50000 and 300000 reviews.
+I am also submitting notebook that I used to reach to the result. 
 
 ### Results and Conclusion
 
