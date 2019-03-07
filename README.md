@@ -80,20 +80,20 @@ It worked well in all the 3 scenario(when reviews: 1000,50000,300000).
 It classified postive (88%) and neutral (40%) classes very well. 
 Classifier doesn't work that well for negative classes.
 
-                 precision    recall  f1-score   support
+              precision    recall  f1-score   support
 
-    Negative       0.08      0.01      0.02       380
-     Neutral       0.40      0.46      0.42      2374
-    Positive       0.88      0.88      0.88     12246
+    Negative       0.48      0.17      0.25      4854
+     Neutral       0.43      0.58      0.49     29942
+    Positive       0.91      0.87      0.89    158490
 
 2. Random Forest
 This algorithm worked very well in all scenarios (when reviews: 1000,50000,300000). 
 
-   		precision    recall  f1-score   support
+              precision    recall  f1-score   support
 
-    Negative       0.83      0.05      0.10       380
-     Neutral       0.58      0.14      0.23      2374
-    Positive       0.83      0.98      0.90     12246
+    Negative       0.79      0.04      0.08      4854
+     Neutral       0.57      0.13      0.21     29942
+    Positive       0.84      0.98      0.90    158490
 
 3. Knn 
 This algorithm performed well when considering more than 50000 but less than 300000 reviews. 
