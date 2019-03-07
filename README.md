@@ -36,6 +36,17 @@ Data being huge, it became very difficult at first to set the environment. To co
 Step1 . Data Preprocessing and environment setup
 The data is first uploaded in google drive for access in google colab. Next, converted each review text in lowercase also removed all puntutation.
 
+1.1: To get reviews for business that are restaurant, I first read the business data into business dataframe. 
+
+Business Data Frame: Contains of all the business id that are restaurant.
+business_dataframe = df_business[df_business['categories'].str.contains('Restaurants','Restaurant', na=False)]
+
+Next, read the reviews from review data set in to a dataframe. Once data frames are created used below logic to 
+merge both data frames based on business id.
+
+#Merging restaurants with review as per business id
+df = pd.merge(df_restaurant, df_review, on = 'business_id') 
+
 Step2 . Created list of Positive,Negative and Neutral keywords after through analysis of data. 
 
 Step3 . Created an algorithm to classify each review in the data set
@@ -87,7 +98,7 @@ Classifier doesn't work that well for negative classes.
     Positive       0.91      0.87      0.89    158490
 
 2. Random Forest
-This algorithm worked very well in all scenarios (when reviews: 1000,50000,300000). 
+This algorithm worked very well in all scenarios. 
 
               precision    recall  f1-score   support
 
