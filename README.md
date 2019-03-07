@@ -8,7 +8,7 @@ The submission consists of 3 Jupyter files:
 
 3. Assignment1_Completed_300000.ipynb - Findings when data set contains 300000 reviews.
 
-4. Assignment1_Final_Notebook.ipynb - Finding when considering reviews only for businesses that are restaurant.
+4. Assignment1_Final_Notebook.ipynb - Findings when considering reviews only for businesses that are restaurant.
 
 5. README
 
